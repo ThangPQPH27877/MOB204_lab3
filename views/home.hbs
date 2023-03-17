@@ -1,0 +1,17 @@
+<h1>Example App: Home - CP17305</h1>
+ <form action="/" method="GET">
+        <input style="margin-top: 20px;" type="number" step="0.1" name="soA" placeholder="So A" required value={{soA}}> 
+        <input style="margin-top: 20px;" type="number" step="0.1" name="soB" placeholder="So B" required value={{soB}}>
+        <label for="operator">Phép tính:</label>
+        <select name="operator" id="operator">
+            <option value="cong">+</option>
+            <option value="tru">-</option>
+            <option value="nhan">*</option>
+            <option value="chia">/</option>
+        </select>
+        <input class="subscribe-button" type="submit" value="Tinh Toan">
+
+        <h2>Ket qua la: </h2>
+      
+        <input name="kq" value={{foo}}>
+</form>
